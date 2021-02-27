@@ -13,10 +13,16 @@
 
 - $ deno run https://deno.land/std/examples/welcome.ts
 
-
 ## VSCode Extension
 
 - Marketplace : vscode-deno or Deno by denoland
+
+### Setting-up Deno in VSCode
+
+- After installing vscode-deno extension
+- `Ctrl+Shift+P` > Deno: Initialize Workspace Configuration
+- In .vscode/setting.json file -> Deno is enabled for this workspace
+- Thus your .ts deno files will no longer shows any typo error :)
 
 ## Hello-world
 
